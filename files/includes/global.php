@@ -79,20 +79,21 @@ function settings_hack_1()
 
 function settings_display_advanced()
 {
-	// $username = $_SESSION['session_username'];
-	// $query_user_group = $db->prepare('SELECT user_group FROM cms_users WHERE user_username = :user_username');
-	// $query_user_group->bindParam(':username', $username);
-	// $query_user_login->execute();
-	// $result = $query_user_group->fetchColumn();
-	// if ($result == 2)
-	// {
-	// 	echo('
-	// 	<h2>Forum Settings</h2>
-	// 	<ul class="subsidebar_menu">
-	// 	<li><a href="<?=$current_domain?>settings/admin/editfora.php">Add a forum</a></li>
-	// 	</ul>
-	// 	');
-	// }
+	/* $username = $_SESSION['session_username'];
+	 $query_user_group = $db->prepare('SELECT user_group FROM cms_users WHERE user_username = :user_username');
+	 $query_user_group->bindParam(':username', $username);
+	 $query_user_login->execute();
+	 $result = $query_user_group->fetchColumn();
+	 if ($result == 2)
+	 {
+	 	echo('
+	 	<h2>Forum Settings</h2>
+	 	<ul class="subsidebar_menu">
+	 	<li><a href="<?=$current_domain?>settings/admin/editfora.php">Add a forum</a></li>
+	 	</ul>
+	 	');
+	 }
+	 */
 }
 
 function tours_hack_1()				
